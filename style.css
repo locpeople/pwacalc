@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+textarea {
+    border: none;
+    border-color: black;
+    outline: none;
+    padding: 0%;
+    background-color: black;
+    color: lightgreen;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    resize: none;
+    height: 95vh;
+}
+
+.input {
+    width: 75%;
+}
+
+.output {
+    width: 25%;
+    border-left: 1px;
+    border-color: aqua;
+}
