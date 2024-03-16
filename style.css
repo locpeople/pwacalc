@@ -9,7 +9,6 @@ textarea {
     outline: none;
     padding: 0%;
     background-color: black;
-    color: lightgreen;
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
@@ -19,10 +18,12 @@ textarea {
 
 .input {
     width: 75%;
+    color: antiquewhite;
 }
 
 .output {
     width: 25%;
     border-left: 1px;
     border-color: aqua;
+    color: lightgreen;
 }
