@@ -22,6 +22,7 @@ function getResults(lines) {
     parser.clear();
     let results = "";
     lines.forEach(line => {
+        line = line.replace(":", "=")
         try {
             const result = parser.evaluate(line);
             results = results + result.toString() + "\n";
